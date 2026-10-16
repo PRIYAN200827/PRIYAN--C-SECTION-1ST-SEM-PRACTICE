@@ -1,0 +1,9 @@
+#include<stdio.h>
+int equ(int a, int b){
+printf ("%d",a==b);
+}
+int main(){
+int a,b;
+scanf("%d%d",&a,&b);
+equ(a,b);
+}
